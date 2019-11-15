@@ -42,6 +42,8 @@ public class MainDemoApp {
 		//call AccountDao Getters AND Setters Method
 		theAccountDAO.setName("Foobar");
 		theAccountDAO.setServiceCode("Silver");
+		theAccountDAO.setName("nikols");
+		theAccountDAO.setServiceCode("gold");
 		
 		String name=theAccountDAO.getName();
 		String code=theAccountDAO.getServiceCode();
